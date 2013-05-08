@@ -1,0 +1,29 @@
+<h1>Listado de Gasolineras</h1>
+
+<div class="container">
+<%= link_to 'Añadir nueva Gasolinera', new_gas_station_path, :class => "btn btn-success" %>
+<hr>
+<% @gas_stations.each do |gas_station| %>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span1">
+          <p><%= link_to 'Mostrar', gas_station %></p>
+          <p><%= link_to 'Editar', edit_gas_station_path(gas_station) %></p>
+          <p><%= link_to 'Borrar', gas_station, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+        </div>
+        <div class="span10">
+          <span>
+            <p><strong>Nombre</strong> <%= gas_station.nombre %></p>
+            <p><strong>Direccion</strong> <%= gas_station.direccion %></p>
+            <p><strong>Latitud</strong> <%= gas_station.latitud %></p>
+            <p><strong>Longitud</strong> <%= gas_station.longitud %></p>
+            <p><strong>Foto</strong> <%= gas_station.foto1 %></p>
+          </span>
+        </div>
+      </div>
+    </div>
+  <hr>
+<% end %>
+</div>
+
+<br />

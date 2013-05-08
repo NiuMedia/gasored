@@ -1,0 +1,42 @@
+<p id="notice"><%= notice %></p>
+
+<h3><%= @gas_station.nombre %></h3>
+
+
+<p>
+  <b>Direccion:</b>
+  <%= @gas_station.direccion %>
+</p>
+
+<p>
+  <b>Telefono:</b>
+  <%= @gas_station.telefono %>
+</p>
+
+<p>
+  <b>Latitud:</b>
+  <%= @gas_station.latitud %>
+</p>
+
+<p>
+  <b>Longitud:</b>
+  <%= @gas_station.longitud %>
+</p>
+
+<p>
+  <b>Foto1:</b>
+  <%= @gas_station.foto1 %>
+</p>
+<p><strong>Características:</strong></p>
+<% if @features != [] %>
+  <ul>
+  <% @features.each do |feature| %>
+   <li> <%= feature.nombre %> </li>
+  <% end %>
+<% else %>
+  <p>No tiene características</p>
+<% end %>
+
+
+<%= link_to 'Editar', edit_gas_station_path(@gas_station) %> |
+<%= link_to 'Regresar', gas_stations_path %>

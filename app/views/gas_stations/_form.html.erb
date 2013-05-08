@@ -1,0 +1,60 @@
+<%= simple_form_for(@gas_station, html: {class: "form-horizontal"}) do |f| %>
+  <% if @gas_station.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@gas_station.errors.count, "error") %> prohibited this gas_station from being saved:</h2>
+
+      <ul>
+      <% @gas_station.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div class="container">
+  <div class="row-fluid">
+    <div class="span6">
+      <div class="field">
+        <%= f.input :nombre %>
+      </div>
+      <div class="field">
+        <%= f.input :direccion, :input_html => { :cols => 40, :rows => 6 } %>
+      </div>
+      <div class="field">
+        <%= f.input :telefono %>
+      </div>
+      <div class="field">
+        <%= f.input :latitud %>
+      </div>
+      <div class="field">
+        <%= f.input :longitud %>
+      </div>
+      <div class="field">
+        <%= f.input :foto1 %>
+      </div>
+    </div>
+    <div class="span6">
+      <p><strong>Características:</strong></p>
+      <% @features.each do |feature| %>
+        <% flag = false %>
+        <% @features_selected.each do |selected| %>
+          <% if selected == feature %>
+            <label>
+              <%= check_box_tag 'features[]', feature.id, true %> <%= feature.nombre %>
+            </label>
+            <% flag = true %>
+          <% end %>  
+        <% end %>
+        <% if flag == false%>
+          <label>
+            <%= check_box_tag 'features[]', feature.id, false %> <%= feature.nombre %>
+          </label>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
+  <div class="actions">
+    <%= f.button :submit,  "Aceptar" %>
+  </div>
+  
+<% end %>

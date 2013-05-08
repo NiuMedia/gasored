@@ -1,0 +1,13 @@
+<h1>Listado de Características</h1>
+
+<%= link_to 'Añadir Nueva Característica', new_feature_path, :class => "btn btn-success" %>
+<div class="container">
+  <hr>
+<% @features.each do |feature| %>
+  <span>
+    <p><strong>Nombre:</strong> <%= feature.nombre %></p>
+    <p><%= link_to 'Mostrar', feature %> | <%= link_to 'Editar', edit_feature_path(feature) %> | <%= link_to 'Borrar', feature, method: :delete, data: { confirm: 'Estas Seguro?' } %></p>
+  </span>
+  <hr>
+<% end %>
+</div>
