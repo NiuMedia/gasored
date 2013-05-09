@@ -1,6 +1,6 @@
 class GasStationsController < ApplicationController
   
-  before_filter :authenticate_user!
+  before_filter :authenticate_user!, :except => [:index]
 
   # GET /gas_stations
   # GET /gas_stations.json
