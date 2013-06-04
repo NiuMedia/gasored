@@ -13,13 +13,10 @@
 # gem 'pg'
 #
 development:
-  adapter: postgresql
+  adapter: sqlite3
   encoding: unicode
   database: gasored_development
   pool: 5
-  username: gasored
-  password:
-
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
