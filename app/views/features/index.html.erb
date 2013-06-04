@@ -6,7 +6,7 @@
 <% @features.each do |feature| %>
   <span>
     <p><strong>Nombre:</strong> <%= feature.nombre %></p>
-    <p><%= link_to 'Mostrar', feature %> | <%= link_to 'Editar', edit_feature_path(feature) %> | <%= link_to 'Borrar', feature, method: :delete, data: { confirm: 'Estas Seguro?' } %></p>
+    <p><%= link_to 'Mostrar', feature, :class => "btn btn-info" %> | <%= link_to 'Editar', edit_feature_path(feature), :class => "btn btn-warning" %> | <%= link_to 'Borrar', feature, method: :delete, data: { confirm: 'Estas Seguro?' }, :class => "btn btn-danger" %></p>
   </span>
   <hr>
 <% end %>
