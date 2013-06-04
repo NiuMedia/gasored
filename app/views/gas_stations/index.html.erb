@@ -9,10 +9,10 @@
       <div class="container-fluid">
         <div class="row-fluid">
           <div class="span1">
-            <p><%= link_to 'Mostrar', gas_station %></p>
+            <p><%= link_to 'Mostrar', gas_station, :class => "btn btn-info" %></p>
           <% if user_signed_in? %>
-            <p><%= link_to 'Editar', edit_gas_station_path(gas_station) %></p>
-            <p><%= link_to 'Borrar', gas_station, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+            <p><%= link_to 'Editar', edit_gas_station_path(gas_station), :class => "btn btn-warning" %></p>
+            <p><%= link_to 'Borrar', gas_station, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %></p>
           <% end %>
           </div>
           <div class="span10">

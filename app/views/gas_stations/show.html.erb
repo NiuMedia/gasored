@@ -1,4 +1,8 @@
 <p id="notice"><%= notice %></p>
+<% if user_signed_in? %>
+  <%= link_to 'Añadir nueva Gasolinera', new_gas_station_path, :class => "btn btn-success" %>
+  <hr>
+<% end %>
 
 <h3><%= @gas_station.nombre %></h3>
 
@@ -24,7 +28,7 @@
 </p>
 
 <p>
-  <b>Foto1:</b>
+  <b>Url Foto:</b>
   <%= @gas_station.foto1 %>
 </p>
 <p><strong>Características:</strong></p>
@@ -37,6 +41,6 @@
   <p>No tiene características</p>
 <% end %>
 
-
-<%= link_to 'Editar', edit_gas_station_path(@gas_station) %> |
-<%= link_to 'Regresar', gas_stations_path %>
+<% if user_signed_in? %>
+<%= link_to 'Editar', edit_gas_station_path(@gas_station), :class => "btn btn-warnig" %> |<% end %>
+<%= link_to 'Regresar', gas_stations_path, :class => "btn btn-danger" %>
