@@ -27,3 +27,8 @@ footer{
 #footer-right{
 	text-align: right;
 }
+
+.foto-gas{
+	width:100%;
+	max-width: 600px;
+}
