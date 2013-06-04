@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(:version => 20130503161513) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "features_gas_stations", :force => true do |t|
+  create_table "features_gas_stations", :id => false, :force => true do |t|
     t.integer "feature_id"
     t.integer "gas_station_id"
   end

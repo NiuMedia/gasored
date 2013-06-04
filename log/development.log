@@ -218,3 +218,102 @@ ActiveRecord::StatementInvalid (Could not find table 'users'):
   Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
   Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
   Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/gas_stations" for 127.0.0.1 at 2013-06-03 20:47:34 -0500
+Processing by GasStationsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'gas_stations'):
+  app/controllers/gas_stations_controller.rb:8:in `index'
+
+
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (2.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateGasStations (20130424182433)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "gas_stations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "direccion" text, "telefono" varchar(255), "latitud" float, "longitud" float, "foto1" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130424182433')
+  [1m[36m (3.3ms)[0m  [1mcommit transaction[0m
+Migrating to CreateFeatures (20130424182605)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "features" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "nombre" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130424182605')
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateFeaturesGasStationsJoin (20130429171957)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "features_gas_stations" ("feature_id" integer, "gas_station_id" integer) [0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130429171957')
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+Migrating to DeviseCreateUsers (20130503161513)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_email')[0m
+  [1m[35m (0.1ms)[0m  CREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130503161513')[0m
+  [1m[35m (3.7ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("features")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("features_gas_stations")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("gas_stations")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_users_on_reset_password_token')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_users_on_email')
+
+
+Started GET "/gas_stations" for 127.0.0.1 at 2013-06-03 20:49:16 -0500
+Processing by GasStationsController#index as HTML
+  [1m[36mGasStation Load (0.1ms)[0m  [1mSELECT "gas_stations".* FROM "gas_stations" [0m
+  Rendered gas_stations/index.html.erb within layouts/application (49.3ms)
+Completed 500 Internal Server Error in 75ms
+
+ActionView::Template::Error (undefined local variable or method `user_signed_in' for #<#<Class:0x007f864039b638>:0x007f864036d378>):
+    1: <h1>Listado de Gasolineras</h1>
+    2: 
+    3: <div class="container">
+    4:   <% if user_signed_in %>
+    5:   <%= link_to 'Añadir nueva Gasolinera', new_gas_station_path, :class => "btn btn-success" %>
+    6:   <hr>
+    7:   <% end %>
+  app/views/gas_stations/index.html.erb:4:in `_app_views_gas_stations_index_html_erb___4129153704606942013_70107289828080'
+  app/controllers/gas_stations_controller.rb:10:in `index'
+
+
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/gas_stations" for 127.0.0.1 at 2013-06-04 01:26:04 -0500
+Processing by GasStationsController#index as HTML
+  [1m[36mGasStation Load (0.4ms)[0m  [1mSELECT "gas_stations".* FROM "gas_stations" [0m
+  Rendered gas_stations/index.html.erb within layouts/application (282.6ms)
+Completed 500 Internal Server Error in 905ms
+
+ActionView::Template::Error (undefined local variable or method `user_signed_in' for #<#<Class:0x007fbada36c2d8>:0x007fbada368ea8>):
+    1: <h1>Listado de Gasolineras</h1>
+    2: 
+    3: <div class="container">
+    4:   <% if user_signed_in %>
+    5:   <%= link_to 'Añadir nueva Gasolinera', new_gas_station_path, :class => "btn btn-success" %>
+    6:   <hr>
+    7:   <% end %>
+  app/views/gas_stations/index.html.erb:4:in `_app_views_gas_stations_index_html_erb___3845889629616133307_70220249977720'
+  app/controllers/gas_stations_controller.rb:10:in `index'
+
+
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.1ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.4ms)
