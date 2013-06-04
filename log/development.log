@@ -974,3 +974,897 @@ Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (7ms)
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 13:33:02 -0500
 Served asset /logo.png - 304 Not Modified (25ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-06-04 15:47:46 -0500
+Processing by GasStationsController#index as HTML
+  [1m[36mGasStation Load (13.9ms)[0m  [1mSELECT "gas_stations".* FROM "gas_stations" [0m
+  Rendered gas_stations/index.html.erb within layouts/application (13.2ms)
+Compiled application.css  (1ms)  (pid 7994)
+Completed 200 OK in 434ms (Views: 288.9ms | ActiveRecord: 44.6ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /jquery.js - 304 Not Modified (38ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /application.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:48 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/features.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:49 -0500
+Served asset /features.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gas_stations.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:49 -0500
+Served asset /gas_stations.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:49 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/gas_stations.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:53 -0500
+Served asset /gas_stations.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:53 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/features.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:53 -0500
+Served asset /features.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:53 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:53 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 15:47:53 -0500
+Served asset /logo.png - 304 Not Modified (15ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (77.8ms)
+Completed 200 OK in 134ms (Views: 118.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (4ms)
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/features.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/gas_stations.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /features.css - 304 Not Modified (0ms)
+Served asset /gas_stations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (9ms)
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:47:59 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:00 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:00 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/gas_stations.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:00 -0500
+Served asset /gas_stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:00 -0500
+Served asset /features.js - 304 Not Modified (2ms)
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 15:48:00 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+Served asset /features.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gas_stations.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /gas_stations.css - 304 Not Modified (0ms)
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gas_stations.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+
+
+Started GET "/assets/features.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /features.js - 304 Not Modified (0ms)
+Served asset /gas_stations.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 15:48:02 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lwV2qgjavkT62vhAWp2rEWOlmD/PLZ/Y+qaAZK/nIyY=", "user"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Registrate!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (19.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'admin@admin.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (35.9ms)[0m  INSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "last_sign_in_at", "last_sign_in_ip", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 04 Jun 2013 20:48:17 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "admin@admin.com"], ["encrypted_password", "$2a$10$rvFoo1XaKExWTGmI2tROyOynxbsx0I5w.8WMAlckhF6yI0YqK3Bpm"], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["updated_at", Tue, 04 Jun 2013 20:48:17 UTC +00:00]]
+  [1m[36m (3.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2013-06-04 20:48:17.258797', "current_sign_in_at" = '2013-06-04 20:48:17.258797', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2013-06-04 20:48:17.259701' WHERE "users"."id" = 1[0m
+  [1m[35m (2.5ms)[0m  commit transaction
+Redirected to http://gasored.dev/features
+Completed 302 Found in 336ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/features" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Processing by FeaturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mFeature Load (10.3ms)[0m  SELECT "features".* FROM "features" 
+  Rendered features/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 75ms (Views: 12.5ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/gas_stations.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+Served asset /gas_stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /features.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /features.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/gas_stations.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /gas_stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 15:48:17 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/gas_stations" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Processing by GasStationsController#index as HTML
+  [1m[36mGasStation Load (0.2ms)[0m  [1mSELECT "gas_stations".* FROM "gas_stations" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered gas_stations/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gas_stations.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /application.css - 304 Not Modified (13ms)
+Served asset /gas_stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /features.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (4ms)
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+
+
+Started GET "/assets/gas_stations.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+Served asset /gas_stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /features.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 15:48:21 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/gas_stations/new" for 127.0.0.1 at 2013-06-04 15:48:22 -0500
+Processing by GasStationsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mFeature Load (0.1ms)[0m  SELECT "features".* FROM "features" 
+  Rendered gas_stations/_form.html.erb (373.6ms)
+  Rendered gas_stations/new.html.erb within layouts/application (380.3ms)
+Completed 200 OK in 471ms (Views: 461.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gas_stations.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /gas_stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /features.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /features.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gas_stations.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /gas_stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /application.js - 304 Not Modified (52ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 15:48:23 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/gas_stations" for 127.0.0.1 at 2013-06-04 15:48:29 -0500
+Processing by GasStationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lwV2qgjavkT62vhAWp2rEWOlmD/PLZ/Y+qaAZK/nIyY=", "gas_station"=>{"nombre"=>"hola", "direccion"=>"", "telefono"=>"", "latitud"=>"", "longitud"=>"", "foto1"=>""}, "commit"=>"Aceptar"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "gas_stations" ("created_at", "direccion", "foto1", "latitud", "longitud", "nombre", "telefono", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 04 Jun 2013 20:48:29 UTC +00:00], ["direccion", ""], ["foto1", ""], ["latitud", nil], ["longitud", nil], ["nombre", "hola"], ["telefono", ""], ["updated_at", Tue, 04 Jun 2013 20:48:29 UTC +00:00]]
+  [1m[35m (3.5ms)[0m  commit transaction
+Redirected to http://gasored.dev/gas_stations/1
+Completed 302 Found in 10ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/gas_stations/1" for 127.0.0.1 at 2013-06-04 15:48:29 -0500
+Processing by GasStationsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mGasStation Load (0.2ms)[0m  [1mSELECT "gas_stations".* FROM "gas_stations" WHERE "gas_stations"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mFeature Load (78.1ms)[0m  [1mSELECT "features".* FROM "features" INNER JOIN "features_gas_stations" ON "features"."id" = "features_gas_stations"."feature_id" WHERE "features_gas_stations"."gas_station_id" = 1[0m
+  Rendered gas_stations/show.html.erb within layouts/application (113.3ms)
+Completed 500 Internal Server Error in 214ms
+
+ActionView::Template::Error (undefined local variable or method `gas_station' for #<#<Class:0x007ff9624482a8>:0x007ff962500268>):
+    31:   <b>Url Foto:</b>
+    32:   <%= @gas_station.foto1 %>
+    33:   <br />
+    34:   <img class="foto-gas" src="<%= gas_station.foto1 %>" />
+    35: 
+    36: </p>
+    37: <p><strong>Características:</strong></p>
+  app/views/gas_stations/show.html.erb:34:in `_app_views_gas_stations_show_html_erb__1634645528191076457_70354536593080'
+  app/controllers/gas_stations_controller.rb:22:in `show'
+
+
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/lguaperrimo/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started POST "/gas_stations" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Processing by GasStationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lwV2qgjavkT62vhAWp2rEWOlmD/PLZ/Y+qaAZK/nIyY=", "gas_station"=>{"nombre"=>"hola", "direccion"=>"", "telefono"=>"", "latitud"=>"", "longitud"=>"", "foto1"=>""}, "commit"=>"Aceptar"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "gas_stations" ("created_at", "direccion", "foto1", "latitud", "longitud", "nombre", "telefono", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Tue, 04 Jun 2013 20:50:23 UTC +00:00], ["direccion", ""], ["foto1", ""], ["latitud", nil], ["longitud", nil], ["nombre", "hola"], ["telefono", ""], ["updated_at", Tue, 04 Jun 2013 20:50:23 UTC +00:00]]
+  [1m[36m (40.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://gasored.dev/gas_stations/2
+Completed 302 Found in 45ms (ActiveRecord: 40.8ms)
+
+
+Started GET "/gas_stations/2" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Processing by GasStationsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mGasStation Load (0.1ms)[0m  SELECT "gas_stations".* FROM "gas_stations" WHERE "gas_stations"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mFeature Load (0.1ms)[0m  SELECT "features".* FROM "features" INNER JOIN "features_gas_stations" ON "features"."id" = "features_gas_stations"."feature_id" WHERE "features_gas_stations"."gas_station_id" = 2
+  Rendered gas_stations/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.css?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+
+
+Started GET "/assets/gas_stations.css?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /features.css - 304 Not Modified (0ms)
+Served asset /gas_stations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/features.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /features.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gas_stations.js?body=1" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /gas_stations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-04 15:50:23 -0500
+Served asset /logo.png - 304 Not Modified (0ms)
